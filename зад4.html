@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>okokokokokokokokoko</title>
+</head>
+<body>
+    <script>
+    const amongUs = {
+        players: {
+        ihko: {
+            alive: true,
+            IsImpostor: false,
+            color: 'Yellow',
+            taskAmount: 6,
+            
+        },
+        papatronik: {
+            alive: true,
+            IsImpostor: false,
+            color: 'Blue',
+            taskAmount: 6,
+            doAtask: function() {
+                this.taskAmount -= 1
+            },
+            if(taskAmount < 0){
+                taskAmount: 'No Tasks',
+            },
+        },
+        anna: {
+            alive: true,
+            IsImpostor: true,
+            color: 'Pink',
+            taskAmount: 6,
+        },
+             //внимание импостер
+        },
+     
+        impostersVictory: function() {
+            console.log('Победа импостера');
+        },
+        crewmatesVictory: function() {
+            console.log('Победа славян!')
+        },
+        
+        killAplayer: function(nickname) {
+            nickname.alive = false
+        },
+        
+        
+    };
+    
+    
+    
+    </script>
+</body>
+</html>
+
+
+<!--дз-->
+<!--сделать чтобы задание не было отрицательным-->
+<!--написать функцию которая создает игрока-->
